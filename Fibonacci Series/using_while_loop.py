@@ -9,3 +9,6 @@ while i<n-1:     # i could be used as index
     i=i+1
 
 print(l)
+
+
+#work on the negatives
