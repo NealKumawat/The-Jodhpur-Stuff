@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.25, random_state = 0)
 
 
-#Feature Scaling- it scales and makes everything to come under a specific range
+#Feature Scaling- it scales and makes everything come under a specific range
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 x_train = sc.fit_transform(x_train)
@@ -28,11 +28,11 @@ classifier.fit(x_train, y_train)
 y_pred = classifier.predict(x_test)
 
 
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+# from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
-print("Accuracy:", accuracy_score(y_test, y_pred))
-print(confusion_matrix(y_test, y_pred))
-print(classification_report(y_test, y_pred))
+# print("Accuracy:", accuracy_score(y_test, y_pred))
+# print(confusion_matrix(y_test, y_pred))
+# print(classification_report(y_test, y_pred))
 
 
 hours = float(input("Enter study hours: "))
