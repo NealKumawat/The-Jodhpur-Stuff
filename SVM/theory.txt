@@ -10,3 +10,17 @@ We'll understand it by just knowing the terms stated below:
 
     -> Margin: The parallel line which passes through SVs both the sides.
                The higher the margin the better the classification is.
+
+
+    -> Kernel: It is a function used to transform data into higher dimension
+               to make it separated linearly. It has 3 types -
+                                                a). Linear Kernel
+                                                b). Polynomial Kernel
+                                                c). Radial Basis Function(RBF)
+
+    -> Feature Space: the space where data points exist.
+
+    -> Regularization Parameter: Large C= small margin
+                                 Small C= large margin
+
+                                 
