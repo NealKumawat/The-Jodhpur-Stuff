@@ -1,0 +1,12 @@
+SVM: Support Vector Machine
+Used for both classification and regression (type of supervised learning algorithm)
+Usually it has a line or plane or something which divides the two classes accordingly
+
+We'll understand it by just knowing the terms stated below:
+    -> Hyperplane: It is a that decision boundary which divides the data.
+                   It is the line(in 2d), plane(in 3d) and Hyperplane in higher dimensions
+
+    -> Support Vectors: The data points closest to the Hyperplane
+
+    -> Margin: The parallel line which passes through SVs both the sides.
+               The higher the margin the better the classification is.
