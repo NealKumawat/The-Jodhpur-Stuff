@@ -1,0 +1,25 @@
+It uses the conditional probability as the concept which well understand by using an example
+
+Suppose you have 2 bags (B1 and B2), and in B1 we have 3 red and 5 black balls
+and in B2 we have 5red and 4 black balls
+Now if we are given that we took out a ball and it was red then what would be the probability
+that it was taken out from the Bag B1.
+The above stated eg was a perfect example of the conditional probability, here the events are 
+not independent
+
+The problem would be represented mathematically like:
+                        P(B1|red)
+
+
+                        and we have a formula to solve it i.e.
+                        P(A|B) = P(B|A) * P(A)
+                                 _____________
+                                      P(B)
+
+
+                        but if we have multiple factors then:
+                        P(A|B1, B2, B3, B4...Bn) = P(B1|A) * P(B2|A) * P(B3|A)... * P(A)
+                                                   ______________________________________
+                                                    P(B1) * P(B2) * P(B3) * P(B4)...P(Bn)
+
+

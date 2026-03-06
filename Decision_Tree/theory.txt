@@ -1,0 +1,7 @@
+In here we make the pathways to end up to a category
+We use concepts like entropy whose formula is:
+
+
+
+The more the entropy is the more it is likely to be chosen as the root node
+Everytime you need to find out entropy of each type of every feature to check it out
