@@ -1,7 +1,28 @@
-In here we make the pathways to end up to a category
+In here we make the pathways to end up to a category or also to regress(it also is used for regression)
 We use concepts like entropy whose formula is:
-
+                                        -(signum from i = 1 to n) * p(i) * log(base 2(p(i)))
 
 
 The more the entropy is the more it is likely to be chosen as the root node
 Everytime you need to find out entropy of each type of every feature to check it out
+
+
+If we have dataset as:
+
+                                DAY         WEATHER     TEMP    HUMIDITY    WIND        PLAY?
+                                day 1       Sunny       Hot     High        Weak        N
+                                day 2       Sunny       Hot     High        Strong      N
+                                day 3       Cloudy      Hot     High        Weak        Y
+                                day 4       Rain        Mild    High        Weak        Y
+                                day 5       Rain        Cool    Normal      Weak        Y
+                                day 6       Rain        Cool    Normal      Strong      N
+                                day 7       Cloudy      Cool    Normal      Strong      Y
+                                day 8       Sunny       Mild    High        Weak        N
+                                day 9       Sunny       Cool    Normal      Weak        Y
+                                day 10      Rain        Mild    Normal      Weak        Y
+                                day 11      Summer      Mild    Normal      Strong      Y
+                                day 12      Cloudy      Mild    High        Strong      Y
+                                day 13      Cloudy      Hot     Normal      Weak        Y
+                                day 14      Rain        Mild    High        Strong      N
+Let's divide it into steps:
+    -> Step 1: 
