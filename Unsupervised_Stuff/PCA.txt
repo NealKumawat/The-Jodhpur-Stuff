@@ -1,0 +1,17 @@
+PCA is principle component analysis
+It is actually a technique or you may call it a step by which we could reduce the number of features it have without actually loosing the essense of the data
+It actually doesn't deletes the data it makes a new feature having the essence of the other features
+From that covariance matrix, PCA then finds the directions of maximum variance — and those directions become your new features(Principle Components)
+
+It uses a few topics which include:
+    - Covariance and Covariance Matrix
+    - Eigen Vectors
+    - Eigen Values
+
+
+
+COVARIANCE: It is not different that what correlation mean. It has just one difference that it has no fixed range. So for eg if you have covariance as 803 it can't be stated how strongly is it related.
+
+EIGEN VECTORS: It consists of a ordered set in which the values range from -1 to +1 but here in PCA it is just positive. It actually points in the direction where we have max variance
+
+EIGEN VALUES: It is likely to be said as a magnitude for the eigen vector. 

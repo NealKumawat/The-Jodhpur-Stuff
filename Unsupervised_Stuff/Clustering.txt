@@ -1,0 +1,7 @@
+Clustering is the main essence of unsupervised learning. In here the algorithm makes groups according to the data points if they behave similar
+It could be done in few ways stated below:
+
+
+    K means: You have to state the number of groups you want to make
+    Heirarchial Clustering: 
+    
